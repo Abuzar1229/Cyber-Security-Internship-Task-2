@@ -1,0 +1,11 @@
+*phishing_indicators.csv*
+csv
+Indicator Type,Description,Severity,Explanation
+Sender Address,securesupportcloud[.]com domain,High,Not company's official domain
+Urgency Language,"Immediate action required, lockout threat",High,Creates pressure to act without thinking
+Link,Suspicious ""Update Now"" button,High,Likely malicious destination
+Credentials,Request for company login details,Critical,Direct credential harvesting attempt
+Grammar,"Awkward phrasing: ""Dear all Contoso Corp employees""",Medium,Indicates non-professional origin
+Attachment,Instruction to download and execute file,Critical,Potential malware installation
+
+
